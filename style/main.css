@@ -83,11 +83,14 @@
 
     .menu {
         animation: fade 0.8s;
+        position: absolute;
         top: 0;
         right: 0;
         left: 0;
         bottom: 0;
-        background-color: blue;
+        backdrop-filter: blur(10px);
+        background: rgba(60, 60, 60, 0.5);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         width: 100%;
     }
 
