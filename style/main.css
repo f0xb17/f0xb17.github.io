@@ -106,12 +106,11 @@ footer {
     nav ul li a {
         text-decoration: none;
         font-size: 1.6em;
+        text-shadow: 1px 1px 10px #333;
     }
 
     nav ul li a:hover {
-        animation: fade 1.2s;
-        color: burlywood;
-        -webkit-animation: fade 0.8s;;
+        color: #ff9416;
     }
 
     
