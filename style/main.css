@@ -20,7 +20,6 @@ body {
     display: -webkit-flex;
     flex-direction: column;
     min-height: 100vh;
-    -webkit-flex-direction: column;
 }
 
 header {
@@ -57,26 +56,15 @@ nav ul li a {
 }
 
 content {
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: column;
     flex: 1;
-    margin: 0 auto;
-    max-width: 850px;
     padding: 1.3em;
-    -webkit-box-flex: 1;
-    -moz-box-flex: 1;
-    -webkit-flex-direction: column;
 }
 
 footer {
-    flex: 0;
     background-color: #333;
     color: #fff;
     padding: 0.6em;
     text-align: center;
-    -webkit-box-flex: 0;
-    -moz-box-flex: 0;
 }
 
 @media screen and (max-width: 600px) {
