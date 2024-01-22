@@ -20,10 +20,13 @@ body {
     display: -webkit-flex;
     flex-direction: column;
     min-height: 100vh;
+    -webkit-flex-direction: column;
+
 }
 
 header {
     display: flex;
+    display: -webkit-flex;
     justify-content: space-between;
     padding: 0.6em;
     background-color: #333;
@@ -58,6 +61,7 @@ content {
     margin: 0 auto;
     flex: 1 0 auto;
     padding: 1.3em;
+    -webkit-flex: 1 0 auto;
 }
 
 footer {
@@ -66,6 +70,7 @@ footer {
     color: #fff;
     padding: 0.6em;
     text-align: center;
+    -webkit-flex-shrink: 0;
 }
 
 @media screen and (max-width: 600px) {
