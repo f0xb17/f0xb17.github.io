@@ -83,8 +83,6 @@
 
     .menu {
         animation: fade 0.8s;
-        position: sticky;
-        position: -webkit-sticky;
         top: 0;
         right: 0;
         left: 0;
