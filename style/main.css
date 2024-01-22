@@ -24,7 +24,6 @@ body {
 
 header {
     display: flex;
-    display: -webkit-flex;
     justify-content: space-between;
     padding: 0.6em;
     background-color: #333;
@@ -56,11 +55,13 @@ nav ul li a {
 }
 
 content {
-    flex: 1;
+    margin: 0 auto;
+    flex: 1 0 auto;
     padding: 1.3em;
 }
 
 footer {
+    flex-shrink: 0;
     background-color: #333;
     color: #fff;
     padding: 0.6em;
@@ -68,6 +69,10 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+
+    content {
+        width: 100vw;
+    }
 
     input[type='checkbox']:not(:checked)+ul {
         display: none;
