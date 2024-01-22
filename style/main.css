@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../media/Roboto-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 0.05em;
+    line-height: 1.6em;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -77,6 +89,7 @@ footer {
         backdrop-filter: blur(10px);
         background: rgba(60, 60, 60, 0.5);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        -webkit-animation: fade 0.8s;;
         -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         -webkit-backdrop-filter: blur(10px);
     }
@@ -90,9 +103,28 @@ footer {
         border-bottom: 1px solid rgb(255 255 255 / 20%);
     }
 
+    nav ul li a {
+        text-decoration: none;
+        font-size: 1.6em;
+    }
+
+    nav ul li a:hover {
+        animation: fade 1.2s;
+        color: burlywood;
+        -webkit-animation: fade 0.8s;;
+    }
+
     
     @keyframes fade {
         0% { opacity: 0; }
         100% { opacity: 1; }
     }
+}
+
+@media screen and (min-width: 600px) {
+
+    nav input[type='checkbox'], nav label {
+        display: none;
+    }
+    
 }
