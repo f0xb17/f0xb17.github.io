@@ -18,15 +18,15 @@
     }
 
     #app .item header nav label {
-        color: #fff;
+        color: var(--nav_textColor_normal);
     }
 
     #app .item header nav label:hover {
-        color: green;
+        color: var(--nav_textColor_hoover);
     }
 
     #app .item header nav ul {
-        position: fixed;
+        position: absolute;
         left: 0;
         right: 0;
         bottom: 0;
@@ -52,18 +52,31 @@
     
     
     #app .item header nav ul li a {
-        color: #fff;
+        color: var(--nav_textColor_normal);
         font-size: 1.6em;
-        text-shadow: 1px 1px 10px #333;
+        text-shadow: 1px 1px 10px var(--accentColor);
         text-decoration: none;
     }
     
     #app .item header nav ul li a:hover {
-        color: green;
+        color: var(--nav_textColor_hoover);
         text-decoration: none;
     }
 
     #app .item main .content {
         padding: 1.5em;
+    }
+
+    .cookie-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 0.6em;
+        animation: fade 0.8s;
+        background-color: var(--cookie_banner_background);
+        border-top: 1px solid var(--accentColor);
+        -webkit-animation: fade 0.8s;
+        -moz-animation: fade 0.8s;
     }
 }

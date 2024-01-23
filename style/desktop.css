@@ -12,6 +12,27 @@
         display: none;
     }
 
+    #app .item header nav ul {
+        list-style: none;
+    }
+    
+    #app .item header nav ul li {
+        display: inline-flex;
+        display: -webkit-inline-flex;
+        margin: 0 0.6em;
+    }
+    
+    
+    #app .item header nav ul li a {
+        color: var(--nav_textColor_normal);
+        text-decoration: none;
+    }
+    
+    #app .item header nav ul li a:hover {
+        color: var(--nav_textColor_hoover);
+        text-decoration: none;
+    }
+
     #app .item main .content {
         margin: 0 auto;
         width: 850px;

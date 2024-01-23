@@ -1,14 +1,14 @@
 #app .item header {
-    background: #333;
+    background: var(--accentColor);
 }
 
 #app .item header .logo {
     font-size: 2.0em;
     font-weight: bold;
-    color: #fff;
+    color: var(--textColor);
 }
 
 #app .item header nav {
     font-size: 1.3em;
-    color: #fff;
+    color: var(--textColor);
 }

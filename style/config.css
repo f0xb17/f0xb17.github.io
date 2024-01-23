@@ -1,0 +1,9 @@
+:root {
+    --accentColor: #333;
+    --textColor: #fff;
+
+    --nav_textColor_normal: #fff;
+    --nav_textColor_hoover: #ff9600;
+
+    --cookie_banner_background: #fff;
+}
