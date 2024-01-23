@@ -21,6 +21,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     -webkit-flex-direction: column;
+    flex-wrap: wrap;
 
 }
 
@@ -65,12 +66,16 @@ content {
 }
 
 footer {
-    flex-shrink: 0;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
     background-color: #333;
-    color: #fff;
-    padding: 0.6em;
-    text-align: center;
-    -webkit-flex-shrink: 0;
+    color: white;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 @media screen and (max-width: 600px) {
