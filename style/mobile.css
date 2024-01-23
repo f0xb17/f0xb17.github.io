@@ -73,6 +73,7 @@
         left: 0;
         right: 0;
         padding: 0.6em;
+        display: none;
         animation: fade 0.8s;
         background-color: var(--cookie_banner_background);
         border-top: 1px solid var(--accentColor);
