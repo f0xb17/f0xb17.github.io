@@ -1,7 +1,10 @@
 @media screen and (max-width: 600px) {
-
     body {
-        overflow-x: hidden;
+        overflow: auto;
+    }
+
+    #app .item {
+        min-width: 0;
     }
 
     #app .item header nav input[type='checkbox']:not(:checked)+ul {
@@ -23,7 +26,6 @@
     }
 
     #app .item header nav ul {
-        overflow: hidden;
         animation: fade 0.8s;
         position: absolute;
         left: 0;
@@ -62,17 +64,6 @@
     }
 
     #app .item main .content {
-        margin-top: 1.5em;
         padding: 1.5em;
-        width: 100%;
     }
-}
-
-
-@media screen and (min-width: 600px) {
-
-    #app .item header nav input[type='checkbox'], nav label {
-        display: none;
-    }
-    
 }
