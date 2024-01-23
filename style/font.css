@@ -8,4 +8,5 @@ body {
     font-size: 0.8em;
     letter-spacing: 0.05em;
     line-height: 1.6em;
+    word-wrap: break-word;
 }

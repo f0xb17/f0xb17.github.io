@@ -1,5 +1,9 @@
 @media screen and (max-width: 600px) {
-    
+
+    body {
+        overflow-x: hidden;
+    }
+
     #app .item header nav input[type='checkbox']:not(:checked)+ul {
         display: none;
     }
@@ -54,6 +58,12 @@
     #app .item header nav ul li a:hover {
         color: green;
         text-decoration: none;
+    }
+
+    #app .item main .content {
+        margin-top: 1.0em;
+        padding: 1.5em;
+        width: 100%;
     }
 }
 
