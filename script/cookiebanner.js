@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('load', () => {
         if(!localStorage.getItem('cookieBannerDisplayed')) {
             cookieBanner.style.display = 'flex'
+            cookieBanner.style.display = '-webkit-flex'
         }
     })
 })
