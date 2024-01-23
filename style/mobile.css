@@ -26,12 +26,12 @@
     }
 
     #app .item header nav ul {
-        animation: fade 0.8s;
-        position: absolute;
+        position: fixed;
         left: 0;
         right: 0;
-        top: 0;
         bottom: 0;
+        top: 0;
+        animation: fade 0.8s;
         backdrop-filter: blur(10px);
         background: rgba(60, 60, 60, 0.5);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
