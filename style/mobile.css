@@ -7,7 +7,7 @@
         min-width: 0;
     }
 
-    #app .item header nav input[type='checkbox']:not(:checked)+ul {
+    #app .item header nav input[type='checkbox']:not(:checked) + ul {
         display: none;
     }
 
