@@ -1,0 +1,53 @@
+@media screen and (max-width: 600px) {
+
+    #app .item header nav input[type='checkbox']:not(:checked)+ul {
+        display: none;
+    }
+
+    #app .item header nav ul {
+        animation: fade 0.8s;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        backdrop-filter: blur(10px);
+        background: rgba(60, 60, 60, 0.5);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        -webkit-animation: fade 0.8s;
+        -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        -webkit-backdrop-filter: blur(10px);
+        -moz-animation: fade 0.8s;
+    }
+    
+    #app .item header nav ul li {
+        display: block;
+        margin-bottom: 0;
+        justify-content: space-between;
+        text-align: center;
+        padding: 1.5em;
+        border-bottom: 1px solid rgb(255 255 255 / 20%);
+    }
+    
+    
+    #app .item header nav ul li a {
+        color: #fff;
+        font-size: 1.6em;
+        text-shadow: 1px 1px 10px #333;
+        text-decoration: none;
+    }
+    
+    #app .item header nav ul li a:hover {
+        color: green;
+        text-decoration: none;
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+
+    #app .item header nav input[type='checkbox'], nav label {
+        display: none;
+    }
+    
+}

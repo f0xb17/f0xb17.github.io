@@ -1,0 +1,20 @@
+#app .item header nav ul {
+    list-style: none;
+}
+
+#app .item header nav ul li {
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    margin: 0 0.6em;
+}
+
+
+#app .item header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#app .item header nav ul li a:hover {
+    color: green;
+    text-decoration: none;
+}
