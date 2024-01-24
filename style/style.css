@@ -36,8 +36,29 @@
     cursor: pointer;
     padding: 0.6em 1.0em;
     touch-action: manipulation;
+    color: var(--cookie_banner_button_fontcolor);
 }
 
 .cookie-banner .button .cookie-btn:hover {
     background-color: var(--cookie_banner_buttonColor_hover);
+}
+
+.border-bottom {
+    border-bottom: var(--bordersize) var(--borderstroke) var(--accentColor);
+}
+
+.regular-padding-bottom {
+    padding-bottom: var(--regular_padding);
+}
+
+.regular-weight {
+    font-weight: var(--regular_fontweight);
+}
+
+.accent-fontcolor {
+    color: var(--accentColor)
+}
+
+.fontsize-h1 {
+    font-size: var(--h1_fontsize);
 }

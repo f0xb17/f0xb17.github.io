@@ -1,6 +1,7 @@
 @media screen and (max-width: 600px) {
+    
     body {
-        overflow: auto;
+        overflow-x: hidden;
     }
 
     #app .item {
@@ -8,8 +9,9 @@
     }
 
     #app .item header .logo {
-        width: 50%;
+        width: 50vw;
         background-image: var(--logoPath);
+        background-size : contain;
     }
     
     #app .item header nav input[type='checkbox']:not(:checked) + ul {
@@ -90,5 +92,7 @@
         border-top: 1px solid var(--accentColor);
         -webkit-animation: fade 0.8s;
         -moz-animation: fade 0.8s;
+        -webkit-box-shadow: 0px -5px 12px 1px var(--cookie_banner_boxShadow); 
+        box-shadow: 0px -5px 12px 1px var(--cookie_banner_boxShadow);
     }
 }

@@ -9,4 +9,6 @@ body {
     letter-spacing: 0.05em;
     line-height: 1.6em;
     word-wrap: break-word;
+    color: var(--fontColor);
+    font-size: var(--fontsize);
 }
