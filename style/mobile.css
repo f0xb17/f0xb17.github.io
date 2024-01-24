@@ -7,6 +7,11 @@
         min-width: 0;
     }
 
+    #app .item header .logo {
+        width: 50%;
+        background-image: var(--logoPath);
+    }
+    
     #app .item header nav input[type='checkbox']:not(:checked) + ul {
         display: none;
     }
@@ -64,9 +69,14 @@
         text-decoration: none;
     }
 
-    #app .item main .content {
-        padding: 1.5em;
+    #app .item main {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        -webkit-flex-direction: column;
     }
+
 
     .cookie-banner {
         position: fixed;

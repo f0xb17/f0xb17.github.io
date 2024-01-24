@@ -27,6 +27,8 @@
     top: 0;
     min-width: 100vw;
     justify-content: space-between;
+    padding-top: 1.0em;
+    padding-bottom: 1.0em;
 }
 
 #app .item header .logo {
@@ -36,11 +38,14 @@
 
 #app .item header nav {
     justify-content: flex-end;
-    padding: 1.0em;
+    padding-top: 1.3em;
+    padding-bottom: 0.5em;
+    padding-right: 0.5em;
 }
 
 #app .item main {
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
 }
