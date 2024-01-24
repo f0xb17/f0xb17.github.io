@@ -1,3 +1,8 @@
+body {
+    background: var(--background);
+    color: var(--fontColor);
+}
+
 #app .item header {
     background: var(--accentColor);
 }
@@ -15,30 +20,6 @@
     color: var(--textColor);
 }
 
-.cookie-banner .text {
-    min-width: 80%;
-    justify-content: flex-start;
-    padding: 0.3em;
-}
-
-.cookie-banner .button {
-    min-width: 30%;
-    justify-content: flex-end;
-    padding: 1.0em;
-}
-
-.cookie-banner .button .cookie-btn {
-    background-color: var(--cookie_banner_buttonColor);
-    border-radius: 0.5em;
-    border-style: none;
-    box-sizing: border-box;
-    color: var(--textColor);
-    cursor: pointer;
-    padding: 0.6em 1.0em;
-    touch-action: manipulation;
-    color: var(--cookie_banner_button_fontcolor);
-}
-
 .cookie-banner .button .cookie-btn:hover {
     background-color: var(--cookie_banner_buttonColor_hover);
 }
@@ -48,11 +29,19 @@
 }
 
 .regular-padding-bottom {
-    padding-bottom: var(--regular_padding);
+    padding-bottom: var(--regular_padding_bottom);
+}
+
+.regular-padding-top {
+    padding-top: var(--regular_padding_top);
 }
 
 .regular-weight {
     font-weight: var(--regular_fontweight);
+}
+
+.bold-weight {
+    font-weight: bold;
 }
 
 .accent-fontcolor {

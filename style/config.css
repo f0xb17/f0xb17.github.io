@@ -1,5 +1,10 @@
 :root {
+    --background: #fff;
     --accentColor: #333;
+    --fontColor: #333;
+    --mobile_fontsize: 1.2em;
+    --desktop_fontsize: 1.0em;
+
 
     --nav_textColor_normal: #fff;
     --nav_textColor_hoover: #ff9600;
@@ -12,14 +17,12 @@
 
     --logoPath: url("../media/logo_white.svg");
 
-
     /** Textstyling Options */
 
     --h1_fontsize: 1.5em;
     --regular_fontweight: normal;
     --bordersize: 0.03em;
     --borderstroke: solid;
-    --regular_padding: 0.6em;
-    --fontColor: #333;
-    --fontsize: 0.8em;
+    --regular_padding_bottom: 0.6em;
+    --regular_padding_top: 0.6em;
 }

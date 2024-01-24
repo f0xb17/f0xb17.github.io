@@ -2,10 +2,17 @@
 
     body {
         overflow: auto;
+        font-size: var(--desktop_fontsize);
     }
 
     #app .item {
         min-width: 100vw;
+    }
+
+    #app .item header .logo {
+        width: 50vw;
+        background-image: var(--logoPath);
+        background-size : contain;
     }
 
     #app .item header nav input[type='checkbox'], nav label {
@@ -33,10 +40,52 @@
         text-decoration: none;
     }
 
-    #app .item main .content {
-        margin: 0 auto;
-        width: 850px;
-        padding: 1.5em;
+    #app .item main .flex-item {
+        padding: 0.6em 0.6em 0.09em 0.6em;
+        width: 60vw;
+    }
+
+    .cookie-banner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        animation: fade 0.8s;
+        background-color: var(--cookie_banner_background);
+        border-radius: 20px;
+        padding: 1.0em 1.2em 1.0em 1.2em;
+        box-shadow: 5px 5px 15px 5px rgba(51,51,51,0.4);
+        -webkit-animation: fade 0.8s;
+        -moz-animation: fade 0.8s;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -webkit-box-shadow: 5px 5px 15px 5px rgba(51,51,51,0.4); 
+    }
+
+    .cookie-banner .text {
+        justify-content: flex-start;
+        width: 100%;
+        padding: 1.2em 0 1.0em 0;
+    }
+    
+    .cookie-banner .button {
+        width: 20%;
+        justify-content: flex-end;
+        padding: 1.0em;
+    }
+
+    .cookie-banner .button .cookie-btn {
+        background-color: var(--cookie_banner_buttonColor);
+        border-radius: 0.5em;
+        border-style: none;
+        box-sizing: border-box;
+        color: var(--textColor);
+        cursor: pointer;
+        padding: 0.6em 1.0em;
+        touch-action: manipulation;
+        color: var(--cookie_banner_button_fontcolor);
+        font-size: var(--desktop_fontsize);
     }
     
 } 
