@@ -1,0 +1,31 @@
+{
+  "Header": {
+    "id": "header",
+    "visible": true
+  },
+  "Footer": {
+    "id": "footer",
+    "visible": true,
+    "CopyrightNotice": {
+      "text": "Copyright © 2025",
+      "visible": true
+    },
+    "PowerByNotice": {
+      "text": "Powered by SiteBuilder.js",
+      "visible": true
+    }
+  },
+  "Content": {
+    "id": "content"
+  },
+  "Logo": {
+    "src": "./images/logo.svg",
+    "width": "450px",
+    "height": "100px",
+    "visible": true
+  },
+  "Title": {
+    "text": "SiteBuilder.js",
+    "visible": true
+  }
+}
